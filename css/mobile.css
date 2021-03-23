@@ -22,6 +22,30 @@
 body {
   font-size: 16px;
   font-family: "Rubik", sans-serif;
+  background-color: var(--Light-Grayish-Violet);
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 50%;
+}
+.app-description {
+  text-align: center;
+  width: 80%;
+}
+.app-description h1{
+  color: var(--Very-Dark-Desaturated-Violet);
+  font-size: 35px;
+  margin: 30px 0;
+}
+.app-description p {
+  color: var(--Dark-Grayish-Violet);
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  line-height: 25px;
 }
 .attribution {
   font-size: 11px;
