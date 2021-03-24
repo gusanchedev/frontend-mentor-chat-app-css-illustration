@@ -35,18 +35,45 @@ main {
   background-color: var(--White);
   border-radius: 35px;
   width: 80%;
+  /* min-height: 500px; */
   margin: 50px;
 }
 .phone-device {
   background-color:var(--Light-Grayish-Violet);
   border-radius: 30px;
   margin: 10px;
+  overflow: hidden;
 }
 .app-user-info-container {
   background: linear-gradient(90deg, var(--Light-Violet),var(--Light-Magenta));
+  padding: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.back-icon {
+  padding: 10px;
+  text-align: center;
+  color: var(--White);
+  font-size: 12px;
+}
+.more-icon {
+  padding: 10px;
+  text-align: center;
+  align-self: flex-end;
+  color: var(--White);
+  font-size: 12px;
+}
+.white-ribbon {
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  position: relative;
+  top: -25px;
+  left: calc(50% - 75px);
+  background-color: var(--White);
 }
 .user-picture img {
-  width: 30px;
+  width: 28px;
   border-radius: 50%;
   border: 1px solid var(--White);
 }
@@ -58,13 +85,23 @@ main {
 }
 .user-profile {
   display: flex;
-  justify-content:center;
+  justify-content:flex-start;
   align-items: center;
 }
-.more-icon {
-  align-self: flex-end;
-  margin-left: 110px;
+.user-name-status {
+  margin-left: 10px;
 }
+.user-name-status p:nth-of-type(1) {
+  color: var(--Light-Grayish-Violet);
+  font-size: 14px;
+  font-weight: 700;
+}
+.user-name-status p:nth-of-type(2) {
+  color: var(--Pale-Violet);
+  font-size: 10px;
+  font-weight: 400;
+}
+
 .customer-message img {
   width: 50px;
   text-align: right;
