@@ -87,6 +87,7 @@ main {
   display: flex;
   justify-content:flex-start;
   align-items: center;
+  flex: auto;
 }
 .user-name-status {
   margin-left: 10px;
@@ -101,7 +102,14 @@ main {
   font-size: 10px;
   font-weight: 400;
 }
-
+.app-message {
+  color: var(--Moderate-Violet);
+  background-color: rgb(243 231 251);
+}
+.customer-message {
+  color: var(--Desaturated-Dark-Violet);
+  background-color: var(--White);
+}
 .customer-message img {
   width: 50px;
   text-align: right;
@@ -117,7 +125,7 @@ main {
   margin: 30px 0;
 }
 .app-description p {
-  color: var(--Dark-Grayish-Violet);
+  color: var(--Light-Grayish-Violet);
   padding: 10px;
   margin-top: 20px;
   margin-bottom: 30px;
