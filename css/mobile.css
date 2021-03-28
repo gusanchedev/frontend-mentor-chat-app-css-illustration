@@ -129,6 +129,7 @@ main {
 .app-messages-container > div:nth-child(3){
   padding: 0;
   width: fit-content;
+  background-color: inherit;
 
 }
 .app-messages-container > div:nth-child(4){
@@ -146,6 +147,25 @@ main {
   width: 50px;
   text-align: right;
   border-radius: 10px;
+}
+.rate-box {
+  background: linear-gradient(90deg, var(--Light-Magenta),var(--Light-Violet));
+  border-radius: 10px;
+  border-bottom-left-radius: 3px;
+  margin: 10px;
+  padding: 10px;
+  max-width: 70%;  
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.inner-circle {
+  color: var(--Very-Light-Magenta);
+
+}
+.rate-box p {
+  color: var(--White);
+  font-size: 10px;
 }
 .app-description {
   text-align: center;
