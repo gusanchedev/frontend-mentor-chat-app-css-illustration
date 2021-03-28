@@ -102,13 +102,45 @@ main {
   font-size: 10px;
   font-weight: 400;
 }
+
 .app-message {
   color: var(--Moderate-Violet);
   background-color: rgb(243 231 251);
+  padding: 10px;
+  width: 55%;
+  margin: 10px;
+  border-radius: 10px;
+  border-bottom-left-radius: 3px;
+}
+.app-message p {
+  font-size: 10px;
+
 }
 .customer-message {
   color: var(--Desaturated-Dark-Violet);
   background-color: var(--White);
+  padding: 10px;
+  margin: 10px;
+  width: auto;
+  max-width: 65%;
+  border-radius: 10px;
+  border-bottom-right-radius: 3px;
+}
+.app-messages-container > div:nth-child(3){
+  padding: 0;
+  width: fit-content;
+
+}
+.app-messages-container > div:nth-child(4){
+  max-width: 55%;
+}
+.app-messages-container > div:nth-child(5){
+  max-width: 35%;
+}
+.customer-message p {
+  color: var(--Desaturated-Dark-Violet);
+  font-size: 10px;
+
 }
 .customer-message img {
   width: 50px;
