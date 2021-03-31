@@ -138,6 +138,13 @@ main {
 .app-messages-container > div:nth-child(5){
   max-width: 35%;
 }
+.customer-message {
+  margin-left: 40%;
+  
+}
+.app-messages-container .customer-message:nth-of-type(5) {
+  margin-left: 60%;
+}
 .customer-message p {
   color: var(--Desaturated-Dark-Violet);
   font-size: 10px;
