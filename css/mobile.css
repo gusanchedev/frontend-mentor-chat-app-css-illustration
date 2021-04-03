@@ -29,13 +29,13 @@ main {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  flex: 50%;
+  /* flex: 50%; */
 }
 .phone-interface {
   background-color: var(--White);
   border-radius: 35px;
-  width: 80%;
-  /* min-height: 500px; */
+  flex: 0 0  307px;
+  box-shadow:  8px 15px 20px 0px hsl(270deg 24% 87%);
   margin: 50px;
 }
 .phone-device {
@@ -215,6 +215,7 @@ main {
 .type-message-box p{
   color: var(--Grayish-Blue);
   font-size: 14px;
+  margin-left: 15px;
 }
 .send-icon{
   display: flex;
