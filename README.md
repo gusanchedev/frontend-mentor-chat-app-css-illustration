@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [@Github](https://your-solution-url.com)
-- Live Site URL: [@Vercel](https://your-live-site-url.com)
+- Solution URL: [@Github](https://github.com/gustavosanchezgalarza/frontend-mentor-chat-app-css-illustration)
+- Live Site URL: [@Vercel](http://frontend-mentor-chat-app-css-illustration-gusanchedev.vercel.app/)
 
 ## My process
 
