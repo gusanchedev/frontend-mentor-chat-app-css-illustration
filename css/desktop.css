@@ -1,7 +1,6 @@
 main{
     flex-wrap: nowrap;
-    height: 95vh;
-
+    margin: 100px 200px;
 }
 .phone-interface {
     flex: 0 0 307px;
