@@ -1,0 +1,14 @@
+main{
+    flex-wrap: nowrap;
+    height: 95vh;
+
+}
+.phone-interface {
+    flex: 0 0 307px;
+    margin: 10px;
+}
+.app-description {
+    flex: 0 0 30%;
+    text-align: left;
+    margin-left: 30px;
+}
