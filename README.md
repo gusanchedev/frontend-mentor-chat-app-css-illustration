@@ -14,7 +14,6 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -23,7 +22,6 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 Users should be able to:
 
 - View the optimal layout for the component depending on their device's screen size
-- **Bonus**: See the chat interface animate on the initial load
 
 ### Screenshot
 
@@ -47,36 +45,45 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas I want to highlight is a great way to reinforce my own knowledge.
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width: 640px) and (max-width:1023px)"/>
+    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width:1024px)"/>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+body {
+  background-image: url("../images/top-background-desktop.svg"),
+    url("../images/bottom-background-desktop.svg");
+  background-position: top -200px left -185px, top 150px right -300px;
+  background-repeat: no-repeat;
+  background-size: 40%, 45%;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+```html
+<svg width="673" height="1440" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:hsl(264, 100%, 61%);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:hsl(293, 100%, 63%);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect x="5" y="5" rx="90%" ry="20%" width="673" height="1024" style="fill:url(#grad1)" />
+</svg>
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+New projects will include Javascript events and DOM manipulation.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [SVG <rect>](https://www.w3schools.com/graphics/svg_rect.asp) - This helped me to create svg background images.
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This is an amazing article which helped me finally understand Flexbox
+- [CSS Box Shadow](https://css-tricks.com/almanac/properties/b/box-shadow/) - CSS Tricks article about box-shadow property in CSS.
 
 ## Author
 
@@ -84,6 +91,3 @@ Use this section to outline areas that you want to continue focusing on in futur
 - Frontend Mentor - [@gustavosanchezgalarza](https://www.frontendmentor.io/profile/gustavosanchezgalarza)
 - Twitter - [@gusanchedev](https://www.twitter.com/gusanchedev)
 
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
