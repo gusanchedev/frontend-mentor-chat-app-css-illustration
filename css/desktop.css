@@ -1,12 +1,19 @@
-main{
-    flex-wrap: nowrap;
-    margin: 100px 200px;
+body {
+  background-image: url("../images/top-background-desktop.svg"),
+    url("../images/bottom-background-desktop.svg");
+  background-position: top -200px left -185px, top 150px right -300px;
+  background-repeat: no-repeat;
+  background-size: 40%, 45%;
+}
+main {
+  flex-wrap: nowrap;
+  margin: 100px 200px;
 }
 .phone-interface {
-    flex: 0 0 307px;
+  flex: 0 0 307px;
 }
 .app-description {
-    flex: 0 0 30%;
-    text-align: left;
-    margin-left: 100px;
+  flex: 0 0 40%;
+  text-align: left;
+  margin-left: 100px;
 }

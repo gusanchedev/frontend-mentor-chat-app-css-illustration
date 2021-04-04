@@ -24,7 +24,7 @@ body {
   font-family: "Rubik", sans-serif;
   background-color: var(--Light-Grayish-Violet);
   background-image: url("../images/top-background.svg"), url("../images/bottom-background.svg");
-  background-position: top -80px left -210px, bottom -350px right -200px;
+  background-position: top -80px left -210px, bottom -250px right -200px;
   background-repeat: no-repeat;
   background-size: 100%;
 }
