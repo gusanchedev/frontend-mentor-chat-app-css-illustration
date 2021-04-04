@@ -47,11 +47,13 @@ Users should be able to:
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas I want to highlight is a great way to reinforce my own knowledge.
 
+Using multiples CSS stylesheets files for different screen sizes with media queries
 ```html
     <link rel="stylesheet" href="./css/mobile.css" />
     <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width: 640px) and (max-width:1023px)"/>
     <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width:1024px)"/>
 ```
+Using multiple background images
 ```css
 body {
   background-image: url("../images/top-background-desktop.svg"),
@@ -61,6 +63,7 @@ body {
   background-size: 40%, 45%;
 }
 ```
+Creating SVG background images with linear gradient colors
 ```html
 <svg width="673" height="1440" xmlns="http://www.w3.org/2000/svg">
   <defs>
